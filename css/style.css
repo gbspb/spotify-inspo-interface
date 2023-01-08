@@ -16,6 +16,7 @@ body {
 }
 
 nav.navbar-transparente {
+  height: auto;
   padding: 15px 0px;
   background: rgba(0, 0, 0, 0.6);
 }
@@ -181,11 +182,17 @@ h3 {
   .btn-custom {
     margin: 10px 15px;
   }
+  .navbar-brand img {
+    height: 40px;
+  }
 }
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
   h1 {
     font-size: 4em;
+  }
+  .navbar-brand img {
+    height: 45px;
   }
 }
 /*Large devices (desktops, 992px and up)*/
